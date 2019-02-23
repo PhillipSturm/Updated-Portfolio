@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
     <title>Phillip Sturm</title>
 </head>
 <body>
@@ -22,11 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
-                    </li>
+                      <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                     <li class="nav-item">
                       <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
@@ -38,7 +35,25 @@
     </nav>
 
     <div class="parallax"></div>
-
+    <span class="wrapper">
+            <div class="roles">
+                <div>
+                    I am a web developer.
+                </div>
+              
+                <div>
+                    I am a coffee lover.
+                </div>
+              
+                <div>
+                    I am a photographer.
+                </div>
+              
+            </div>
+            <div id="about">
+                <img  id="profilePic" src="./img/profilePic.jpg" alt="">
+            </div>
+        </span>
     <div id="portfolio" class="card-deck">
             <div class="card">
                 <a href="https://stark-inlet-23885.herokuapp.com/">
@@ -70,21 +85,21 @@
           </div>
           <div class="card-deck">
                 <div class="card">
-                        <a href="https://phillipsturm.github.io/TriviaGame/">
-                      <img src="./img/trivia.png" class="card-img-top" alt="...">
+                        <a href="https://veronicavera.github.io/GroupProjectFood/">
+                      <img src="./img/Food.png" class="card-img-top" alt="...">
                 </a>
                       <div class="card-body">
-                        <h5 class="card-title">Trivia Game <i class="fas fa-question-circle"></i></h5>
-                        <p class="card-text">Front-end app using HTML, CSS and Javascript to test your foodie knowledge.</p>
+                        <h5 class="card-title">Food & Cocktail Search <i class="fas fa-cocktail"></i></h5>
+                        <p class="card-text">Input a primary ingredient, either food or alcohol, and get recipies based off your answer.</p>
                       </div>
                     </div>
             <div class="card">
-                            <a href="https://phillipsturm.github.io/TriviaGame/">
-                          <img src="./img/trivia.png" class="card-img-top" alt="...">
+                            <a href="https://github.com/PhillipSturm/Liri-bot">
+                          <img src="./img/Siri-1.jpg" class="card-img-top" alt="...">
                         </a>
                           <div class="card-body">
-                            <h5 class="card-title">Trivia Game <i class="fas fa-question-circle"></i></h5>
-                            <p class="card-text">Front-end application using HTML, CSS and Javascript to test your foodie knowledge.</p>
+                            <h5 class="card-title">Liri-bot <i class="fas fa-brain"></i></h5>
+                            <p class="card-text">Application run through your terminal to find information about movies, songs or where your favorite band is playing next.</p>
                           </div>
                         </div>
              <div class="card">
@@ -97,5 +112,6 @@
                               </div>
                             </div>
               </div>
+              <script src="./app.js"></script>
 </body>
 </html>
