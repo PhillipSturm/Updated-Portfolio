@@ -3,7 +3,7 @@
     background-image: url("./img/Seattle-day3-3.jpg");
   
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
