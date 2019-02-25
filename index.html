@@ -16,7 +16,7 @@
 </head>
 <body>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">| Phillip Sturm |</a>
+                <a class="navbar-brand">| Phillip Sturm |</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,12 +30,15 @@
                     <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                     </li>
+                    <!-- <li class="nav-item">
+                            <a class="nav-link" href="./Phillip Sturm Technical Resume.pdf" download>Resume</a>
+                    </li> -->
                   </ul>
                 </div>
     </nav>
 
     <div class="parallax"></div>
-    <span class="wrapper">
+    <span id="about" class="wrapper">
             <div class="roles">
                 <div>
                     I am a web developer.
@@ -50,10 +53,22 @@
                 </div>
               
             </div>
-            <div id="about">
+            <div>
                 <img  id="profilePic" src="./img/profilePic.jpg" alt="">
+                <div id="social">
+                    <a class="socials" href="https://github.com/PhillipSturm"><i class="fab fa-github"></i></a>
+                    <a class="socials" href="https://www.instagram.com/phillipjsturm/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a class="socials" href="https://www.facebook.com/phillip.sturm.5"><i class="fab fa-facebook-square"></i></a>
+                    <a class="socials" href="https://phillipsturm.com/"><i class="fas fa-camera-retro"></i></a>
+                    <a class="socials" id="email" href="mailto:sturmphillip95@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <button type="button" class="btn btn-dark" id="resume">
+                        <a class="nav-link" id="resumebtn" href="./Phillip Sturm Technical Resume.pdf" download>| Resume |</a>
+                </button>
             </div>
+
         </span>
+        <div class="parallax2">    
     <div id="portfolio" class="card-deck">
             <div class="card">
                 <a href="https://stark-inlet-23885.herokuapp.com/">
@@ -111,7 +126,8 @@
                                 <p class="card-text">Front-end application using HTML, CSS and Javascript to test your foodie knowledge.</p>
                               </div>
                             </div>
-              </div>
+            </div>
+            </div> 
               <script src="./app.js"></script>
 </body>
 </html>

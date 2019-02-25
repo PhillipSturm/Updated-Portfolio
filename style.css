@@ -11,9 +11,23 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .parallax2 {
+    /* The image used */
+    background-image: url("./img/Seattle-day3-1.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .wrapper {
     padding: 100px;
+    padding-bottom: 60px;
     width: 500px;
     display: block;
     text-align: center;
@@ -42,4 +56,30 @@
   }
   #deck2{
       margin-top: 10px;
+  }
+  #socials{
+      margin-top: 20px;
+  }
+  .socials {
+      font-size: 35px;
+      letter-spacing: 20px;
+      margin: auto;
+      color: black;
+  }
+  #resume{
+      width: 90%;
+      background-color: black;
+  }
+  #resume:hover, #resume:active {
+      background-color: #ffffff;
+      color: black;
+  }
+  #email{
+      letter-spacing: 2px;
+  }
+  #resumebtn{
+      color: #ffffff;
+  }
+  #resumebtn:hover, #resumebtn:active {
+      color: black;
   }
