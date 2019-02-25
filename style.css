@@ -1,3 +1,6 @@
+*{
+    font-family: 'Copse', serif;
+}
 .parallax {
     /* The image used */
     background-image: url("./img/Seattle-day3-3.jpg");
@@ -24,7 +27,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .wrapper {
     padding: 100px;
     padding-bottom: 60px;
@@ -54,6 +56,10 @@
       width: 80%;
       margin: auto;
   }
+  .card {
+      /* margin-top: 10px;
+      margin-bottom: 10px; */
+  }
   #deck2{
       margin-top: 10px;
   }
@@ -82,4 +88,13 @@
   }
   #resumebtn:hover, #resumebtn:active {
       color: black;
+  }
+  #contact{
+      width: 60%;
+    margin: auto;
+  }
+  #letsConnect{
+      font-size: 35px;
+      margin-top: 10px;
+
   }
