@@ -85,6 +85,7 @@
   }
   #resumebtn{
       color: #ffffff;
+      font-size: 20px;
   }
   #resumebtn:hover, #resumebtn:active {
       color: black;
